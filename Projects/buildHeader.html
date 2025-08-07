@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body{
             background-color: rgb(65, 63, 63);
+        }
+        
+        #nav{
+            background-color: black;
             color: aliceblue;
-        }
-
-        header{
-            margin-top: -20px;
-        }
-
-        h1,h2{
-            text-align: center;
-        }
-
-        #nav ul li{
-            list-style-type: none;
-            margin-top: 30px;
+            height: 80px;
         }
         
         #nav ul{
@@ -31,14 +29,19 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             gap: 30px;
         }
-        
-        #nav{
-            background-color: black;
-            color: aliceblue;
-            height: 80px;
+
+        #nav ul li{
+            list-style-type: none;
+            margin-top: 30px;
+        }
+
+        h1,h2{
+            text-align: center;
+            color: antiquewhite;
         }
 
         #topics{
+            color: antiquewhite;
             font-size: 20px;
             text-align: left;
             margin-left: 410px;

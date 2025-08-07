@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Callout</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body{
             background-color: rgb(65, 63, 63);
         }
-
-        header{
-            margin-top: -20px;
-        }
-
-        h1,h2{
-            text-align: center;
-        }
-        #nav ul li{
-            list-style-type: none;
-            margin-top: 30px;
+        
+        #nav{
+            background-color: black;
+            color: aliceblue;
+            height: 100px;
         }
         
         #nav ul{
@@ -29,22 +29,18 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             gap: 30px;
         }
+
+        #nav ul li{
+            list-style-type: none;
+            margin-top: 30px;
+        }
+
+        h1,h2{
+            text-align: center;
+        }
         
-        #nav{
-            background-color: black;
-            color: aliceblue;
-            height: 80px;
-        }
-
-        #topics{
-            font-size: 20px;
-            text-align: left;
-            margin-left: 410px;
-        }
-
         #callout{
             background-color: rgb(233, 240, 241);
-            margin-top: -30px;
             height: 200px;
         }
 
@@ -55,6 +51,7 @@
             font-size: 30px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
+
         #callout ul li{
             list-style-type: none;
             margin-top: 60px;

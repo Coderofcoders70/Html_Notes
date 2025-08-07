@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            background-color: rgb(65, 63, 63);
+        }
+        
+        #nav{
+            background-color: black;
+            color: aliceblue;
+            height: 100px;
+        }
+        
+        #nav ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            gap: 30px;
+        }
+
+        #nav ul li{
+            list-style-type: none;
+            margin-top: 30px;
+        }
+
+        h1,h2{
+            text-align: center;
+        }
+        
+        #callout{
+            background-color: rgb(233, 240, 241);
+            height: 200px;
+        }
+
+        #callout ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #callout ul li{
+            list-style-type: none;
+            margin-top: 60px;
+        }
+
+        #img-section img{
+            display: flex;
+            margin: 10px 340px;
+            width: 600px;
+        }
+
+        #text-section{
+            background-color: rgb(133, 132, 131);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #contactSec{
+            margin-top: 20px;
+        }
+        
+        .contact{
+            background-color: rgb(133, 132, 131);
+            width: 20%;
+            margin-left: 540px;
+        }
+        
+        .contact a{
+            text-decoration: none;
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .regSec{
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 540px;
+            margin-top: 20px;
+            line-height: 30px;
+        }
+
+        .btn-submit{
+            padding: 2px;
+            font-weight: 700;
+            width: 70px;
+            background-color: rgb(189, 188, 188);
+            border-radius: 8px ;
+        }
+
+        #tabularData{
+            margin-top: 40px;
+            margin-left: 260px;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 70%;
+        }
+        
+        th,td{
+            border: 2px solid black;
+        }
+
+        footer{
+            background-color: rgb(133, 130, 130);
+            height: 30px;
+            margin-top: 20px
+        }
+
+        footer p{
+            text-align: center;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Clients</li>
+            <li>Contact</li>
+        </ul>    
+    </header>
+
+    <section id="callout">
+        <ul>
+            <li>My Business Website</li>
+            <li>Call us Today - 1800-0000</li>
+        </ul>
+    </section>
+    
+    <section id="img-section">
+        <img src="https://media.istockphoto.com/id/1756458439/photo/place-of-work.jpg?s=1024x1024&w=is&k=20&c=ZuuJzaUAmSZjR8U0XAid6TTCzAKPRcTUme8Ym7nZL_E=" alt="no-img">
+    </section>
+
+    <section id="text-section">
+        <h1>This is our website</h1>
+        <h2>We are Stronger Smarter Sharper</h2>
+    </section>
+
+    <section id="contactSec">
+        <div class="contact">
+            <h1><a href="#">Contact Us Today!</a></h1>
+        </div>
+
+        <div class="regSec">
+            <label for="regBox">Registration for our newsletter</label><br>
+            <input type="email" name="" id="regBox" required />
+            <input class="btn-submit" type="submit" value="Submit">
+        </div>
+    </section>
+
+    <section id="tabularData">
+        <table border="2" cellspacing="2" cellpadding="4" bordercolor="black">
+            <tr>
+                <th>About Us</th>
+                <th>Our Vision</th>
+                <th>Services</th>
+            </tr>
+
+            <tr>
+                <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eveniet voluptatum laborum voluptate officiis dolorum eius, suscipit tenetur voluptatem, consectetur adipisci totam aut ad atque velit nihil nulla recusandae tempora unde possimus laudantium blanditiis! Iure quas impedit dignissimos totam asperiores!
+                </td>
+
+                <td>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem fugit ad labore fugiat alias earum optio, doloremque, ut odio qui nesciunt distinctio laboriosam possimus quisquam temporibus. Nostrum laudantium dolores debitis esse molestiae saepe repellendus sit. Nihil suscipit distinctio quos voluptas.
+                </td>
+
+                <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus eius tempore non et commodi, reiciendis dolorum, minus magnam eligendi facere numquam sint officiis iste odit! Necessitatibus provident sit, iusto doloremque harum eligendi inventore obcaecati cumque, nemo a perspiciatis nihil.
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; All rights are reserved, 2025</p>
+    </footer>
+</body>
+</html>
